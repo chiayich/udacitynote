@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- This line is an HTML comment. -->
+    <!-- Comments help PEOPLE read code. They are ignored by the computer. You should use comments to leave notes for yourself (and anyone else who might read your code later). -->
+
+    <!-- The <head> element contains information that won't be displayed on the page. -->
+    <head>
+        <!-- The <title> element normally sets the name of the browser tab (but in this example codepen's title overrides the title I set) -->
+        <title>Yich's Notes refer to Andy's</title>
+    </head>
+</head>
+<body>
+HTML Result
+Edit on
+
+
+<!-- The <h1> tag stands for "heading 1". Heading tags go all the way up to <h6>. Lower numbered headings indicate content that is more important. -->
+<h1>Important Concepts</h1>
+
+<b>How the Web Works</b>
+<p>The web is a bunch of computers that communicate
+    with each other. When a person goes to a web
+    page like www.google.com, their computer sends
+    a <em>HTTP Request</em> to a <em>server</em>. The
+    server finds the appropriate HTML document and sends
+    it back to the user's computer where a <em>web browser</em>
+    interprets the page and displays it on the user's screen.
+    <a href="https://www.udacity.com/course/viewer#!/c-nd000/l-3873828673/e-48329854/m-48480496">This video</a>
+    does a good job of explaining.
+</p>
+
+<b>HTML</b>
+<p>HTML stands for <em>Hypertext Markup Language.</em> HTML documents form the majority of the
+    content on the web. HTML documents contain <em>text content</em> which describes "what you see"
+    and <em>markup</em> which describes "how it looks".
+    <a href="https://www.udacity.com/course/viewer#!/c-nd000/l-3873828673/m-48724340"> This
+        video</a> gives a good overview.
+    <br>
+    <b>HTML is made up of :</b><br>
+    <em>-text content</em>:which describes "What you see ?"<br>
+    <em>-markup</em>
+    :describes as "What it looks like ?"<br>
+    <em>-reference to other documents</em>
+    :e.g. images and videos
+</p>
+
+<b>Tags and Elements</b>
+<p>HTML documents are made of HTML <b>elements</b>. When
+    writing HTML, we tell browsers the type of each element by using HTML <b>tags</b>.
+    <a href="https://www.udacity.com/course/viewer#!/c-nd000/l-3873828673/m-48723444">This video</a>
+    explains the distinction well.<br>
+    <b>b tags: </b>b stands for bold.Just for ending a line<br>
+    <em>em tags: </em> em stands for emphasis. which makes content italic.<br>
+    <a href="#">HTML Attributes (this link direct to itself)</a>
+    :'<'TAG ATTR = 'VALUE'>content'<'/TAG> a means Anchor and href means hypertext reference<br>
+    below this line is a img contain the note of img tag.<br><img src="img/imgtag.png">
+</p>
+
+
+<p>
+    <b>img</b> - images : this tags including src and alt attribute<br>
+    <b>src</b> : the URL. This is the URL of the image to download.<br>
+    <b>alt</b> : alternate. This is text that gets displayed when the image doesn't load.<br>
+    "required" broken requests -blind
+    <b>img</b> tag is a void tag that has no content.so it doesn't need a closing tag.<br>
+</p>
+<b>WhiteSpace</b>
+<p>text on multiple lines rendered to be one line.This is because in HTML<br>
+ all whitespace,new lines,tabs,spaces all turn into a single space.So we needs '<'br> tag or '<'p> tag</p>
+
+<b>Why Computers are Stupid</b>
+<p>Computers are stupid because they interpret instructions
+    literally. This makes them very unforgiving since a
+    small mistake by a programmer can cause huge problems
+    in a program.
+</p>
+
+<b>Inline vs Block Elements</b>
+<p>HTML elements are either <b>inline</b> or <b>block</b>. Block
+    elements form an "invisible box" around the content inside of
+    them.<br>
+    <b>inline tag : </b> b em img<br>
+    <b>block tag :</b> p
+</p>
+
+<b>container Elements</b>
+<p>HTML elements are either <b>inline</b> or <b>block</b>. Block
+    elements form an "invisible box" around the content inside of
+    them.<br>
+    <b>span tag : </b> span is inline<br>
+    <b>div tag :</b> div is block.actually they are both invisible box.<br>
+    <b>class :</b> controling how text is laid out.
+</p>
+
+<b>HTML documents</b>
+<p><b>DOCTPYE</b>  this is what kind of HTML is.HTML5 it is a simple and clean document
+<b>head tag</b> including meta-data javascript css and title of the page.<br>
+    <b>body  : </b> contents of the page<br>
+    <b>div tag :</b> div is block<br>
+    <b>class :</b> controling how text is laid out.
+</p>
+<p>ps: i know how create link to a video of each parts of the note.I just omit this. </p>
+</body>
+</html>
